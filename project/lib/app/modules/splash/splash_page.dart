@@ -5,6 +5,16 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        actions: [
+          Text(
+            '',
+            textAlign: TextAlign.center,
+          ),
+        ],
+      ),
+    );
   }
 }
